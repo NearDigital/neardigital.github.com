@@ -11,7 +11,7 @@ layout: default
       {{ post.content }}
     </div>
     <div class="share">
-      <a href="http://twitter.com/share" class="twitter-share-button" data-text="{{ post.title }}" data-count="horizontal" data-via="NearDigital">Tweet</a>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-url="//neardigital.org/{{ post.url }}" data-text="{{ post.title }}" data-count="horizontal" data-via="NearDigital">Tweet</a>
     </div>
     <div class="date">
       published on {{ post.date | date_to_string }} by {{ post.author }}
